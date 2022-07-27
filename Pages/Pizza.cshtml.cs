@@ -11,7 +11,6 @@ namespace RazorPagesPizza.Pages
         [BindProperty]
         public Pizza NewPizza { get; set; } = new();
 
-        [BindProperty]
         public List<Pizza> pizzas { get; set; } = new();
         public void OnGet()
         {
