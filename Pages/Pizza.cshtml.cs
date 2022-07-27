@@ -9,7 +9,7 @@ namespace RazorPagesPizza.Pages
     public class PizzaModel : PageModel
     {
         [BindProperty]
-        public Pizza NewPizza { get; set; }
+        public Pizza NewPizza { get; set; } = new();
 
         [BindProperty]
         public List<Pizza> pizzas { get; set; } = new();
